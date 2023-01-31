@@ -4,7 +4,7 @@ import Home from "./componets/home/index";
 import Login from "./componets/login";
 import Signup from "./componets/signup";
 import Profile from "./componets/userProfile";
-import Register from "./componets/register";
+import Register from "./componets/register/index";
 import TutoriaTrack from "./componets/tutorialTrack";
 import TestRoute from "./componets/testRoute"
 import TutorialPage from "./componets/tutorialTrack/tutorialPage";

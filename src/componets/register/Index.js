@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 
-const Index = () => {
+const Register = () => {
   const navigate = useNavigate();
   const [phone, setPhone] = useState("");
   const [dob, setDob] = useState("");
@@ -231,7 +231,7 @@ const Index = () => {
   );
 }
 
-export default Index
+export default Register
 
 
 
