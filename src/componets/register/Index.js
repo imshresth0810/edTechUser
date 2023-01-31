@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 
-const Register = () => {
+function Register () {
   const navigate = useNavigate();
   const [phone, setPhone] = useState("");
   const [dob, setDob] = useState("");
