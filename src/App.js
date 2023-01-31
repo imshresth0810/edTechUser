@@ -4,7 +4,7 @@ import Home from "./componets/home";
 import Login from "./componets/login";
 import Signup from "./componets/signup";
 import Profile from "./componets/userProfile";
-import Register from "./componets/register";
+// import Register from "./componets/register";
 import TutoriaTrack from "./componets/tutorialTrack";
 import TestRoute from "./componets/testRoute"
 import TutorialPage from "./componets/tutorialTrack/tutorialPage";
@@ -18,7 +18,7 @@ function App() {
         <Route path="/account/login" element={<Login />} />
         <Route path="/account/signup" element={<Signup />} />
         <Route path="/account/profile" element={<Profile />} />
-        <Route path="/account/register" element={<Register />} />
+        {/* <Route path="/account/register" element={<Register />} /> */}
         <Route path="/account/tutorial" element={<TutoriaTrack/>} />
         <Route path="/account/tutorial/tutorialPage" element={<TutorialPage/>} />
         <Route path="/account/testroute" element={<TestRoute />} />
